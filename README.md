@@ -1,6 +1,6 @@
 # CS570-Fall-2020
 
-<strong>PREPARATION TO DO HANDS_ON PRACTICE </strong>
+<strong>PREPARATION TO DO HANDS-ON PRACTICE </strong>
 
 1. In your local machine, open Terminal (for Mac) or Command Propmt (for Windows), type the following commands to create a directory for this class: <br/>
 ```cd Desktop``` (to change directory to Desktop)<br/>
