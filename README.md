@@ -18,7 +18,7 @@
 
 Once you completed the Hands-on practice, do the following to push your work to GitHub <br/>
 1. Open the terminal from the VSCode by hitting the control + ~ key, make sure you are in the right path, for example:
-KimNguyen/Desktop/CS570-Fall-2020/HOP01/KimNguyenMai/Module 1 <br/>
+KimNguyen/Desktop/CS570/HOP01/KimNguyenMai/Module 1 <br/>
 
 Type the following command: <br/>
 ```git add .``` (to copy all changes you have made)<br/>
