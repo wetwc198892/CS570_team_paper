@@ -6,8 +6,8 @@
 ```cd Desktop``` (to change directory to Desktop)<br/>
 ```mkdir CS570```(to create a directory for this course)<br/>
 ```git clone <URL>```(to download this Github repository to your local machine, <strong> replace <URL> with the actual url of your repository, example below </strong>)<br/>
-![Test Image 1](github-url.png) <br/>
-```cd CS570-Fall-2020```(to change directory to the repository you just downloaded) <br/>
+![Github URL](github-url.png) <br/>
+```cd <HOP#-GithubUsername>```(to change directory to the repository you just downloaded, <strong> note that you need to replace ```<HOP#-GithubUsername>``` with the actual repository name you just downloaded </strong>) <br/>
 
 2. Change directory to the corresponding folder of each week. For example: Your work for module 1 should be stored under ```Module 1``` folder; your work for module 2 should be stored under ```Module 2```, and so on:<br/>
 ```cd Module 1```<br/>
