@@ -18,7 +18,8 @@
 <strong>SUBMIT YOUR WORK </strong>
 
 Once you completed the Hands-on practice, do the following to push your work to GitHub <br/>
-1. Open the terminal from the VSCode by hitting the control + ~ key, make sure you are in the right path, for example:
+
+Open the terminal from the VSCode by hitting the control + ~ key, make sure you are in the right path, for example:
 KimNguyen/Desktop/CS570/CS570-HOP-Hands-On-Practice-KimNguyenMai/Module 1 <br/>
 
 Type the following command: <br/>
@@ -27,6 +28,3 @@ Type the following command: <br/>
 - ```git push origin master``` (to upload your work to Github) <br/>
 
 
-2. Create a pull request <br/>
-Go to the remote repository in GitHub <br/>
-Create a pull request<br/>
