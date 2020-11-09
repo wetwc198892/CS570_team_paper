@@ -1,0 +1,365 @@
+{
+  "id": "6da9c5a0-befd-4e60-8d30-8a4f607dbed6",
+  "version": "2.0",
+  "name": "Cityu Website",
+  "url": "https://www.cityu.edu",
+  "tests": [{
+    "id": "75a353f8-b5fe-47f3-84a1-d6e6461c75af",
+    "name": "test ciyu functions",
+    "commands": [{
+      "id": "5e8632d0-922b-49c9-ac6c-e40722e049a3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "973d756d-c430-423b-8126-92cd490debda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88d15117-cbf6-4491-bdd5-e86dee231bcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-navigation__search > .fas",
+      "targets": [
+        ["css=.primary-navigation__search > .fas", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "714de506-ea15-45cd-b8d3-72ba7c9c1fa3",
+      "comment": "",
+      "command": "click",
+      "target": "id=site-search",
+      "targets": [
+        ["id=site-search", "id"],
+        ["css=#site-search", "css:finder"],
+        ["xpath=//input[@id='site-search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-dynamic-search']/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3c8fcd6-459c-4d88-83c9-312d447cebf5",
+      "comment": "",
+      "command": "type",
+      "target": "id=site-search",
+      "targets": [
+        ["id=site-search", "id"],
+        ["css=#site-search", "css:finder"],
+        ["xpath=//input[@id='site-search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-dynamic-search']/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mscs"
+    }, {
+      "id": "85b4dd8a-7b09-45cb-bbc2-c4e3f9d25cb5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Master of Science in Computer Science",
+      "targets": [
+        ["linkText=Master of Science in Computer Science", "linkText"],
+        ["css=.search-results__result:nth-child(2) .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Master of Science in Computer Science')]", "xpath:link"],
+        ["xpath=//div[@id='js-dynamic-search']/form/div[2]/div[2]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.cityu.edu/programs-overview/master-science-computer-science/')]", "xpath:href"],
+        ["xpath=//div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Master of Science in Computer Science')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a55393b-3c15-4c1b-8e17-4ffd17e4abb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Course Requirements",
+      "targets": [
+        ["linkText=Course Requirements", "linkText"],
+        ["css=.tabs-widget__menu-item:nth-child(2) > .tabs-widget__menu-link", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#course-requirements')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Course Requirements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22e0c8ac-b91e-4253-b613-50db2cfbe666",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=For full course descriptions please visit the 2020–2021 Course Catalog.",
+      "targets": [
+        ["linkText=For full course descriptions please visit the 2020–2021 Course Catalog.", "linkText"],
+        ["css=#course-requirements a", "css:finder"],
+        ["xpath=//a[contains(text(),'For full course descriptions please visit the 2020–2021 Course Catalog.')]", "xpath:link"],
+        ["xpath=//div[@id='course-requirements']/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cityu.smartcatalogiq.com/2020-2021/Catalog')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'For full course descriptions please visit the 2020–2021 Course Catalog. ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49b5effa-8855-40c5-953b-ca02ac82624b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Master Degrees",
+      "targets": [
+        ["linkText=Master Degrees", "linkText"],
+        ["css=.hasChildren:nth-child(25) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Master Degrees')]", "xpath:link"],
+        ["xpath=//ul[@id='navLocal']/li[25]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/2020-2021/Catalog/Master-Degrees')]", "xpath:href"],
+        ["xpath=//li[25]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Master Degrees')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3ae0afa-45b8-429c-9514-6ca7e8f10ddf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computer Science, Master of Science",
+      "targets": [
+        ["linkText=Computer Science, Master of Science", "linkText"],
+        ["css=li:nth-child(4) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computer Science, Master of Science')]", "xpath:link"],
+        ["xpath=//ul[@id='navLocal']/li[25]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/2020-2021/Catalog/Master-Degrees/Computer-Science-Master-of-Science')]", "xpath:href"],
+        ["xpath=//li[25]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computer Science, Master of Science')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6902f9c-6e74-4cb0-9ca3-0f693b60a960",
+      "comment": "",
+      "command": "click",
+      "target": "id=leftcolumn_0_txtBxTerm",
+      "targets": [
+        ["id=leftcolumn_0_txtBxTerm", "id"],
+        ["name=leftcolumn_0$txtBxTerm", "name"],
+        ["css=#leftcolumn_0_txtBxTerm", "css:finder"],
+        ["xpath=//input[@id='leftcolumn_0_txtBxTerm']", "xpath:attributes"],
+        ["xpath=//div[@id='leftcolumn_0_Panel1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98794bc0-c19d-475e-9043-91c37c71707f",
+      "comment": "",
+      "command": "type",
+      "target": "id=leftcolumn_0_txtBxTerm",
+      "targets": [
+        ["id=leftcolumn_0_txtBxTerm", "id"],
+        ["name=leftcolumn_0$txtBxTerm", "name"],
+        ["css=#leftcolumn_0_txtBxTerm", "css:finder"],
+        ["xpath=//input[@id='leftcolumn_0_txtBxTerm']", "xpath:attributes"],
+        ["xpath=//div[@id='leftcolumn_0_Panel1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "570"
+    }, {
+      "id": "755ab0eb-32c1-4155-9a86-dbfe45bcbcab",
+      "comment": "",
+      "command": "click",
+      "target": "id=leftcolumn_0_btnSubmit",
+      "targets": [
+        ["id=leftcolumn_0_btnSubmit", "id"],
+        ["name=leftcolumn_0$btnSubmit", "name"],
+        ["css=#leftcolumn_0_btnSubmit", "css:finder"],
+        ["xpath=//input[@id='leftcolumn_0_btnSubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='leftcolumn_0_Panel1']/div/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf5aa036-972d-46dd-89ad-a2198d850edc",
+      "comment": "",
+      "command": "click",
+      "target": "id=ccQLogo",
+      "targets": [
+        ["id=ccQLogo", "id"],
+        ["linkText=Go to School Web Site", "linkText"],
+        ["css=#ccQLogo", "css:finder"],
+        ["xpath=//a[@id='ccQLogo']", "xpath:attributes"],
+        ["xpath=//div[@id='ccNavHeader']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.cityu.edu/')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to School Web Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e125ae22-1a7f-4959-b91d-0084e6aed217",
+      "comment": "",
+      "command": "click",
+      "target": "css=.trigger--fixed",
+      "targets": [
+        ["css=.trigger--fixed", "css:finder"],
+        ["xpath=//body/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc80b0b8-2155-4343-8020-2cd70a60da32",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.trigger--fixed",
+      "targets": [
+        ["css=.trigger--fixed", "css:finder"],
+        ["xpath=//body/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e233b210-eb88-4cd3-92de-463678eff301",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.trigger--fixed",
+      "targets": [
+        ["css=.trigger--fixed", "css:finder"],
+        ["xpath=//body/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e21acf-951a-4f09-b115-89a87168e2b4",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f93c9eb-21fb-4e5e-a1c8-aa5ab0e32de8",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginname",
+      "targets": [
+        ["id=loginname", "id"],
+        ["name=loginname", "name"],
+        ["css=#loginname", "css:finder"],
+        ["xpath=//input[@id='loginname']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6904751-4be4-4ce2-a41e-c52db9a6a119",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginname",
+      "targets": [
+        ["id=loginname", "id"],
+        ["name=loginname", "name"],
+        ["css=#loginname", "css:finder"],
+        ["xpath=//input[@id='loginname']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Min Qiu"
+    }, {
+      "id": "5ccd2af5-d603-4638-a818-ed77181065fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_content",
+      "targets": [
+        ["id=login_content", "id"],
+        ["css=#login_content", "css:finder"],
+        ["xpath=//div[@id='login_content']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "337b0a26-19b2-4c17-95eb-2a2c92fcc118",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginemail",
+      "targets": [
+        ["id=loginemail", "id"],
+        ["name=loginemail", "name"],
+        ["css=#loginemail", "css:finder"],
+        ["xpath=//input[@id='loginemail']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8606bee5-28ec-4d5b-a662-fac0ffcade72",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginemail",
+      "targets": [
+        ["id=loginemail", "id"],
+        ["name=loginemail", "name"],
+        ["css=#loginemail", "css:finder"],
+        ["xpath=//input[@id='loginemail']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "test@cityu.edu"
+    }, {
+      "id": "6809429e-8b5e-495c-80e6-a63112127691",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginquestion",
+      "targets": [
+        ["id=loginquestion", "id"],
+        ["name=loginquestion", "name"],
+        ["css=#loginquestion", "css:finder"],
+        ["xpath=//textarea[@id='loginquestion']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4748e7cd-a1d4-4584-b9bb-34b7e1757686",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginquestion",
+      "targets": [
+        ["id=loginquestion", "id"],
+        ["name=loginquestion", "name"],
+        ["css=#loginquestion", "css:finder"],
+        ["xpath=//textarea[@id='loginquestion']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "aa2b8c5b-a3b5-407e-b6eb-ae2ab86b4265",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_content",
+      "targets": [
+        ["id=login_content", "id"],
+        ["css=#login_content", "css:finder"],
+        ["xpath=//div[@id='login_content']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3943a444-797b-4dc5-b118-0e90be67cc91",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//input[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='login_content']/input[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f4774b85-736a-413c-8f87-6ea99e74f143",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["75a353f8-b5fe-47f3-84a1-d6e6461c75af"]
+  }],
+  "urls": ["https://www.cityu.edu/"],
+  "plugins": []
+}
