@@ -1,3 +1,6 @@
 [submodule "Module 4/Module"]
 	path = Module 4/Module
 	url = https://github.com/eviltester/startUsingSeleniumWebDriver.git
+[submodule "Module 4/startUsingSeleniumWebDriver"]
+	path = Module 4/startUsingSeleniumWebDriver
+	url = https://github.com/eviltester/startUsingSeleniumWebDriver.git
